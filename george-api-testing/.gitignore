@@ -1,0 +1,11 @@
+/.gradle/
+/build/
+Result/
+out/
+bin/
+gen/
+*.xml
+*.bin
+*.js
+*.html
+*.patch
