@@ -1,2 +1,2 @@
-# George Api Testing
-### Common project for Squads to implement tests for Microservices and other APIs
+# George-Api-Testing
+### Common project for testing Microservices and other Apis with RestAssured
