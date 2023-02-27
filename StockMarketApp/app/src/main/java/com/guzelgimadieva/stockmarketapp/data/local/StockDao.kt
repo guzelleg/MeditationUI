@@ -4,7 +4,6 @@ import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.guzelgimadieva.stockmarketapp.domain.model.CompanyListing
 
 @Dao
 interface StockDao {
@@ -24,5 +23,5 @@ interface StockDao {
             UPPER(:query) == symbol
         """
     )
-    suspend fun searchCompanyListing(query: String) : List<CompanyListing>
+    suspend fun searchCompanyListing(query: String) : List<CompanyListingEntity>
 }
